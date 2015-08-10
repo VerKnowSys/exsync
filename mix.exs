@@ -20,7 +20,7 @@ defmodule ExSync.Mixfile do
   end
 
   defp deps do
-    [ {:exfswatch, "~> 0.1"} ]
+    [ { :exfswatch, github: "VerKnowSys/exfswatch" } ]
   end
 
   defp package do
